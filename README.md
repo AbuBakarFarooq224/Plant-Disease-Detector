@@ -1,13 +1,8 @@
 ---
 title: Plant Disease Detector
-emoji: 🌾
+emoji: 🌿
 colorFrom: green
-colorTo: blue
-sdk: streamlit
-sdk_version: "1.32.0"
-app_file: app.py
-pinned: false
+colorTo: yellow
+sdk: docker
+app_port: 7860
 ---
-
-# Plant-Disease-Detector
-Plant Disease Detection using Deep Learning
