@@ -1,7 +1,6 @@
-tensorflow-cpu==2.20.0
 streamlit==1.45.0
 numpy
 Pillow
 plotly
 pandas
-protobuf==5.28.0
+protobuf==4.25.3
