@@ -1,6 +1,7 @@
-tensorflow-cpu==2.13.0
-streamlit==1.32.0
-numpy==1.24.3
-Pillow==10.0.0
-plotly==5.17.0
-pandas==2.0.3
+tensorflow-cpu==2.20.0
+streamlit==1.45.0
+numpy
+Pillow
+plotly
+pandas
+protobuf==5.28.0
