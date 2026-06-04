@@ -4,5 +4,5 @@ numpy
 Pillow
 plotly
 pandas
-protobuf==5.28.0
+protobuf==5.28.3
 grpcio==1.62.0
