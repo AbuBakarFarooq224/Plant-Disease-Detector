@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pdd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pdd
+  template:
+    metadata:
+      labels:
+        app: pdd
+    spec:
+      containers:
+      - name: pdd
+        image: yourdockerhubusername/pdd:v1
+        ports:
+        - containerPort: 7860
